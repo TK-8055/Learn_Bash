@@ -1,0 +1,45 @@
+Learning bash we need to first have terminal open 
+
+1.First CMD is "echo" it is used for printing the text
+   (eg.) echo Hello world!!
+  It would print "Hello world!!"
+
+2.Now we are going to see about "cat" it is also print text 
+  difference between echo and cat is echo print text are
+  message while cat print full file contents
+
+   Step 1:
+          "vim 2.txt" press i to go into the insert
+          mode and type what ever you want in that file 
+   Step 2:
+         press "esc" then use ":" type type wq and last press "Enter" 
+   Step 3:
+         Use cat cmd to print the file content 
+         CMD:
+             cat 2.txt
+
+ ---------------------------------
+# Note:                           #
+#    cat is not a bash cmd it is  #
+#     a external cmd. I have used #
+#     here because few may not    #
+#     known so it is here. In this#
+#     i have covered some external#
+#     cmd like this.              #
+ ---------------------------------
+
+3.We are going to run bash file with extension of ".sh" 
+  
+  Step 1:
+        Create a file using vim "3.sh" and type the cmd 
+         #! bin/bash 
+         echo hello world!!
+
+ ---------------------------------
+#  The first lien tells the os    #
+#  to use bash shell to run the   #
+#  script                         #
+ ---------------------------------
+  Step 2:
+        To run the file use the CMD "bash 3.sh"
+
