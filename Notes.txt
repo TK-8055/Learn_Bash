@@ -4,6 +4,7 @@ Learning bash we need to first have terminal open
    (eg.) echo Hello world!!
   It would print "Hello world!!"
 
+<<=========================================================>>
 2.Now we are going to see about "cat" it is also print text 
   difference between echo and cat is echo print text are
   message while cat print full file contents
@@ -12,7 +13,8 @@ Learning bash we need to first have terminal open
           "vim 2.txt" press i to go into the insert
           mode and type what ever you want in that file 
    Step 2:
-         press "esc" then use ":" type type wq and last press "Enter" 
+         press "esc" then use ":" type type wq and last
+         press "Enter" 
    Step 3:
          Use cat cmd to print the file content 
          CMD:
@@ -28,12 +30,14 @@ Learning bash we need to first have terminal open
 #     cmd like this.              #
  ---------------------------------
 
+<<=========================================================>>
+
 3.We are going to run bash file with extension of ".sh" 
   
   Step 1:
         Create a file using vim "3.sh" and type the cmd 
          #! bin/bash 
-         echo hello world!!
+         Our first bash script has been executed
 
  ---------------------------------
 #  The first lien tells the os    #
@@ -42,4 +46,23 @@ Learning bash we need to first have terminal open
  ---------------------------------
   Step 2:
         To run the file use the CMD "bash 3.sh"
+
+<<=========================================================>>
+
+4.Now we are going to use CMD "wc" Word count y this we can
+also count
+    
+    1.lien (-l)
+    2.Word (-w)
+    3.Characters(-m)
+    4.Bytes(-c)
+
+    Step 1:
+          We can use like "wc 3.sh" we get answer like
+          Lines CharactersWords
+    Step 2:
+          If use seperatilly like "wc -l 3.sh" like this
+          for all means we get the data 
+
+<<=========================================================>>
 
