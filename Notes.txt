@@ -56,13 +56,31 @@ also count
     2.Word (-w)
     3.Characters(-m)
     4.Bytes(-c)
-
+/home/tk/Documents/Learn_Bash/2.txt
     Step 1:
           We can use like "wc 3.sh" we get answer like
           Lines CharactersWords
     Step 2:
           If use seperatilly like "wc -l 3.sh" like this
           for all means we get the data 
+
+<<=========================================================>>
+5.Next CMD is "chmod" it is used for changing file
+permissions like (Read, Write, execute) for 
+       
+       1) Owner(u)
+       2) Group(g)
+       3) Others(o)
+
+
+       Eg.
+          chmod u+x file.txt   #Add execute for use
+          chmod g-w file.txt   #Remove write for Group
+          chmod o=r file.txt   #Set read-only for Others
+          chmod a+r fiel.txt   #Add read for all (user,group,
+          others)
+
+To check the file permissions use CMD "ls -l"
 
 <<=========================================================>>
 
